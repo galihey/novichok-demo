@@ -1,0 +1,5 @@
+CREATE TABLE site_copy (
+ id INTEGER PRIMARY KEY CHECK (id=1),
+ content TEXT NOT NULL,
+ revision INTEGER NOT NULL
+);
